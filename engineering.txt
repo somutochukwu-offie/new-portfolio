@@ -39,7 +39,15 @@
 
 5.0 Videos
 
-5.1 Added contents that describe each video.
+5.1 I embedded my videos to my portfolio using the embed link.
+
+5.2 I changed the iframe width in the embed link to 340 to suit all screen sizes.
+
+5.3 I made the videos grid column of 3 in laptops and 2 in tablets.
+
+5.4 I resized my video container to 1100 to suit the resized iframe width.
+
+
 
 6.0 Project
 

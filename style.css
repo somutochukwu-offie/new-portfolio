@@ -278,7 +278,7 @@ h1 {
 }
 
 .container{
-    max-width:1300px;
+    max-width:1100px;
     margin:auto;
 }
 
@@ -288,19 +288,17 @@ h2{
     margin-bottom:10px;
 }
 
-.subtitle{
-    text-align:center;
-    color:#bfc8d8;
-    margin-bottom:50px;
-    font-size:1rem;
-}
+
 
 /* Grid */
 
 .video-grid{
     display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    grid-template-columns:repeat(3, 1fr);
+    grid-template-rows: auto;
     gap:30px;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Card */
@@ -308,7 +306,7 @@ h2{
 .video-card{
     background:#1e293b;
     border-radius:15px;
-    overflow:hidden;
+    overflow: hidden;
     transition:.4s;
     box-shadow:0 8px 20px rgba(0,0,0,.3);
 }
@@ -319,25 +317,9 @@ h2{
 
 .video-card video{
     width:100%;
-    display:block;
+    display: block;
     background:#000;
 }
-
-.video-card h3{
-    padding:20px 20px 10px;
-    font-size:1.3rem;
-}
-
-.video-card p{
-    padding:0 20px 25px;
-    color:#cbd5e1;
-    line-height:1.6;
-}
-
-/* Tablet */
-
-
-
 
 
 
@@ -399,6 +381,19 @@ footer{
    RESPONSIVE DESIGN
 ========================= */
 
+/* Tablet */
+@media (max-width: 992px) {
+    .video-grid{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+
+    /* .video-card iframe{
+        width:200;
+        
+    } */
+}
+
 @media(max-width:768px){
 
     .nav-links{
@@ -433,11 +428,27 @@ footer{
     
     .videos-section{
         padding:70px 5%;
+        
+    }
+
+    .video-grid{
+        display:grid;
+        grid-template-columns:repeat(2, 1fr);
+        grid-template-rows: auto;
+        gap:30px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container{
+        max-width:1300px;
+        margin:auto;
     }
 
     h2{
         font-size:2.4rem;
     }
+
 
 
 }
@@ -446,13 +457,7 @@ footer{
 
 @media(max-width:480px){
 
-    h1{
-        font-size:2rem;
-    }
 
-    .subtitle{
-        font-size:.95rem;
-    }
 
     .video-grid{
         grid-template-columns:1fr;
