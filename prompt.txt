@@ -1,0 +1,50 @@
+1.0 Menu Bar
+
+1.1 Lets create a media responsive personal portfolio site named in h1 Offie Somutochukwu Chiagozie
+
+1.2 Let the portfolio site be a one page site, with a sticky header bar, comprising of home, about, skill, projects, and contact.
+
+1.3 The header should have a responsive hamburger bar which dropdown when hovered on, when hovered the dropdown should show responsive contents, of home, about, skill, project and contact. 
+
+2.0 Hero
+2.1 Each section should have a corresponding h2 header
+
+2.2 Create a well labelled external CSS file and a well labelled html file
+  
+
+2.3 The hero section shall contain, my modified image, a h2 Welcome to Offie Somutochukwu Chiagozie Portfolio site. Also a call to action button of View my CV.
+
+2.4 The hero should have  a 70% height responsive across media.
+
+3.0 Skill
+3.1 Build an about me section, with flex or grid, one flexbox or grid box containing an image of me while the other flex or grid box containing a three paragraph of everything you know about me.
+
+3.2 Create a skill section with using flex or grid, displaying these techinical skills with a corresponding logo, HTML, CSS, Git, Tailwind CSS.
+
+4.0 Project
+
+4.1 Create a project section, using grid to form a  card of 3 column and two rows, 
+
+4.2 The first card should be about how i created my personal profile, technologies used only HTML, a space for image insertion and a space for brief summary of the project.
+
+4.3 The second card should be about my LifeCare Health Centre, a space for insertion of an image, a space to summerize the the project, technologies used, only HTML.
+
+4.4 The third card my portfolio profile, technologies used CSS and HTML, space for image insertion and a space to summerize the project
+
+4.5 The fourth card should be E-commerce site, technologies used, HTML, CSS. A space for insertion of image and space for summerizing the project.
+
+4.6 The fifth card should be Nexus landing page , technologies used tailwind css, HTML. A space for image insertion and a space to summerize the project.
+
+4.7 Add a call to action button to my project cards, with a good UI/UX interface the cta button should have an anchor tag, with View my work text, provide a corresponding external style to it.
+
+5.0 Videos
+
+5.1 Hello chat i just added videos to the menu bar and hamburger bar of my portfolio profile we created here together. please i will like you to develop a HTML and CSS file that is response, where i will place my five videos
+
+6.0 Contact
+
+6.1 Create a contact section with label of name and input, label of email and input, a label of message and textarea with row 5, and submit button
+
+7.0 
+Finially a sticky footer.
+

@@ -1,0 +1,50 @@
+
+
+1.0 Menu Bar
+
+
+1.1 I introduced a logo with  golden-rod background colour, height of 25px, width of 30px border radius of 3px.
+
+1.2 I made my name h1 tag inline with font size of 15px.
+
+1.3 I made the logo class a flex and, align item of center, justify content- centerand agap of 1.2rem.
+
+1.4 I added Videos to the menu bar
+
+2.0 Hero
+
+2.1 I introduced A.I improved image to my hero section.
+
+2.2 I also added my C.V using anchor tag.
+
+2.3 I updated the contents and used flex, justify center and item center to make it look better. 
+
+
+
+
+
+3.0 About
+
+3.1 On the about section i added paragraphs explaining details about me.
+
+3.2 I also introducted an A.I updated image on the about section using an img tag.
+
+
+4.0 Skill
+
+
+4.1 I also made the skill container div hover with background colour of white, colour of black and border 1px solid black.
+
+4.2 I added  github and github icon to the skill section.
+
+5.0 Videos
+
+5.1 Added contents that describe each video.
+
+6.0 Project
+
+6.1 I added images to my project cards, paragraphs explaining the technologies and processes used in it.
+
+7.0 footer
+
+7.1 I added social media handles using anchor tags to the footer.
